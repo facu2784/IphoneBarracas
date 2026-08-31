@@ -1,0 +1,314 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>iPhone Barracas | Venta de iPhones, Servicio Técnico y Accesorios</title>
+    <!-- Tailwind CSS CDN para estilos rápidos y modernos -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    <!-- Lucide Icons para iconografía de Apple y redes -->
+    <script src="https://unpkg.com/lucide@latest"></script>
+    <style>
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+        }
+        .apple-gradient {
+            background: linear-gradient(135deg, #1a1a1a 0%, #080808 100%);
+        }
+        .glass-card {
+            background: rgba(255, 255, 255, 0.05);
+            backdrop-filter: blur(12px);
+            border: 1px solid rgba(255, 255, 255, 0.1);
+        }
+    </style>
+</head>
+<body class="bg-black text-gray-100 min-h-screen">
+
+    <!-- Navegación -->
+    <nav class="fixed top-0 left-0 w-full z-50 glass-card border-b border-zinc-800 bg-black/80">
+        <div class="max-w-7xl mx-auto px-6 py-4 flex justify-between items-center">
+            <div class="flex items-center space-x-2">
+                <i data-lucide="smartphone" class="w-7 h-7 text-white"></i>
+                <span class="text-xl font-bold tracking-tight text-white">iPhone <span class="text-zinc-400 font-normal">Barracas</span></span>
+            </div>
+            <div class="hidden md:flex space-x-8 text-sm text-zinc-300 font-medium">
+                <a href="#catalogo" class="hover:text-white transition">Catálogo</a>
+                <a href="#servicios" class="hover:text-white transition">Servicios</a>
+                <a href="#garantia" class="hover:text-white transition">Garantía</a>
+                <a href="#contacto" class="hover:text-white transition">Contacto</a>
+            </div>
+            <a href="https://wa.me/5491100000000?text=Hola!%20Vengo%20desde%20la%20web%20y%20quiero%20consultar%20por%20un%20iPhone" target="_blank" class="bg-white text-black font-semibold px-4 py-2 rounded-full text-sm hover:bg-zinc-200 transition flex items-center gap-2">
+                <i data-lucide="message-circle" class="w-4 h-4 text-emerald-600"></i> WhatsApp
+            </a>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section class="pt-32 pb-20 px-6 apple-gradient text-center">
+        <div class="max-w-4xl mx-auto">
+            <span class="inline-block px-4 py-1.5 rounded-full text-xs font-semibold bg-zinc-800 text-zinc-300 border border-zinc-700 mb-6">
+                📍 Barracas, Buenos Aires
+            </span>
+            <h1 class="text-5xl md:text-7xl font-extrabold text-white tracking-tight leading-tight mb-6">
+                Tu nuevo iPhone,<br>al alcance de tu mano.
+            </h1>
+            <p class="text-zinc-400 text-lg md:text-xl max-w-2xl mx-auto mb-8">
+                Equipos nuevos en caja sellada y Usados Premium seleccionados con batería al 100%. Envíos a todo el país y entregas coordinadas en Barracas.
+            </p>
+            <div class="flex flex-wrap justify-center gap-4">
+                <a href="#catalogo" class="bg-white text-black font-semibold px-8 py-3.5 rounded-full hover:bg-zinc-200 transition">
+                    Ver Catálogo Disponible
+                </a>
+                <a href="https://www.instagram.com/iph__barracas/" target="_blank" class="glass-card text-white font-semibold px-8 py-3.5 rounded-full hover:bg-zinc-800 transition flex items-center gap-2">
+                    <i data-lucide="instagram" class="w-5 h-5 text-pink-500"></i> Síguenos en Instagram
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Características rápidas -->
+    <section class="py-12 border-y border-zinc-800 bg-zinc-950">
+        <div class="max-w-7xl mx-auto px-6 grid grid-cols-1 md:grid-cols-4 gap-8 text-center">
+            <div class="p-4">
+                <i data-lucide="check-circle-2" class="w-8 h-8 text-white mx-auto mb-3"></i>
+                <h3 class="font-bold text-lg mb-1">Garantía Escrita</h3>
+                <p class="text-sm text-zinc-400">Todos nuestros equipos son testeados en más de 30 puntos clave.</p>
+            </div>
+            <div class="p-4">
+                <i data-lucide="refresh-cw" class="w-8 h-8 text-white mx-auto mb-3"></i>
+                <h3 class="font-bold text-lg mb-1">Plan Canje</h3>
+                <p class="text-sm text-zinc-400">Tomamos tu iPhone usado como parte de pago al mejor valor.</p>
+            </div>
+            <div class="p-4">
+                <i data-lucide="shield-check" class="w-8 h-8 text-white mx-auto mb-3"></i>
+                <h3 class="font-bold text-lg mb-1">Batería Óptima</h3>
+                <p class="text-sm text-zinc-400">Garantizamos la salud de batería óptima en usados seleccionados.</p>
+            </div>
+            <div class="p-4">
+                <i data-lucide="truck" class="w-8 h-8 text-white mx-auto mb-3"></i>
+                <h3 class="font-bold text-lg mb-1">Entregas Rápidas</h3>
+                <p class="text-sm text-zinc-400">Coordinación de entregas presenciales en Barracas o envíos asegurados.</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Catálogo de Productos -->
+    <section id="catalogo" class="py-20 px-6 max-w-7xl mx-auto">
+        <div class="flex flex-col md:flex-row justify-between items-start md:items-end mb-12 gap-4">
+            <div>
+                <h2 class="text-3xl md:text-4xl font-bold text-white mb-2">Catálogo Destacado</h2>
+                <p class="text-zinc-400">Equipos disponibles para entrega inmediata o reserva.</p>
+            </div>
+            <!-- Filtros -->
+            <div class="flex flex-wrap gap-2">
+                <button onclick="filtrar('todos')" class="filter-btn active bg-white text-black px-4 py-2 rounded-full text-xs font-semibold">Todos</button>
+                <button onclick="filtrar('pro')" class="filter-btn glass-card text-zinc-300 px-4 py-2 rounded-full text-xs font-semibold hover:text-white">Línea Pro</button>
+                <button onclick="filtrar('standard')" class="filter-btn glass-card text-zinc-300 px-4 py-2 rounded-full text-xs font-semibold hover:text-white">Estándar</button>
+                <button onclick="filtrar('accesorios')" class="filter-btn glass-card text-zinc-300 px-4 py-2 rounded-full text-xs font-semibold hover:text-white">Accesorios</button>
+            </div>
+        </div>
+
+        <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-8" id="grid-productos">
+            <!-- Producto 1 -->
+            <div class="product-card pro glass-card rounded-3xl p-6 flex flex-col justify-between hover:border-zinc-500 transition duration-300">
+                <div>
+                    <span class="bg-emerald-500/10 text-emerald-400 text-xs font-semibold px-3 py-1 rounded-full border border-emerald-500/20">Usado Premium</span>
+                    <img src="https://images.unsplash.com/photo-1695048133142-1a20484d2569?q=80&w=600&auto=format&fit=crop" alt="iPhone 15 Pro Max" class="w-full h-56 object-contain my-6">
+                    <h3 class="text-xl font-bold text-white">iPhone 15 Pro Max</h3>
+                    <p class="text-sm text-zinc-400 mt-1">256 GB | Titanio Natural</p>
+                    <div class="flex items-center gap-2 mt-3 text-xs text-zinc-300">
+                        <i data-lucide="battery-charging" class="w-4 h-4 text-emerald-400"></i> Batería 92%
+                        <span class="text-zinc-600">•</span>
+                        <i data-lucide="shield" class="w-4 h-4 text-emerald-400"></i> Con Caja
+                    </div>
+                </div>
+                <div class="mt-6 pt-4 border-t border-zinc-800 flex justify-between items-center">
+                    <div>
+                        <span class="text-xs text-zinc-500 block">Consultar precio</span>
+                        <span class="text-xl font-extrabold text-white">USD $980</span>
+                    </div>
+                    <a href="https://wa.me/5491100000000?text=Hola!%20Me%20interesa%20el%20iPhone%2015%20Pro%20Max%20de%20256GB" target="_blank" class="bg-zinc-800 hover:bg-white hover:text-black transition p-3 rounded-2xl">
+                        <i data-lucide="shopping-bag" class="w-5 h-5"></i>
+                    </a>
+                </div>
+            </div>
+
+            <!-- Producto 2 -->
+            <div class="product-card pro glass-card rounded-3xl p-6 flex flex-col justify-between hover:border-zinc-500 transition duration-300">
+                <div>
+                    <span class="bg-blue-500/10 text-blue-400 text-xs font-semibold px-3 py-1 rounded-full border border-blue-500/20">Nuevo Sellado</span>
+                    <img src="https://images.unsplash.com/photo-1632661674596-df8be070a5c5?q=80&w=600&auto=format&fit=crop" alt="iPhone 13 Pro" class="w-full h-56 object-contain my-6">
+                    <h3 class="text-xl font-bold text-white">iPhone 13 Pro</h3>
+                    <p class="text-sm text-zinc-400 mt-1">128 GB | Azul Sierra</p>
+                    <div class="flex items-center gap-2 mt-3 text-xs text-zinc-300">
+                        <i data-lucide="battery-charging" class="w-4 h-4 text-emerald-400"></i> Batería 100%
+                        <span class="text-zinc-600">•</span>
+                        <i data-lucide="box" class="w-4 h-4 text-blue-400"></i> Sellado
+                    </div>
+                </div>
+                <div class="mt-6 pt-4 border-t border-zinc-800 flex justify-between items-center">
+                    <div>
+                        <span class="text-xs text-zinc-500 block">Consultar precio</span>
+                        <span class="text-xl font-extrabold text-white">USD $670</span>
+                    </div>
+                    <a href="https://wa.me/5491100000000?text=Hola!%20Me%20interesa%20el%20iPhone%2013%20Pro%20de%20128GB" target="_blank" class="bg-zinc-800 hover:bg-white hover:text-black transition p-3 rounded-2xl">
+                        <i data-lucide="shopping-bag" class="w-5 h-5"></i>
+                    </a>
+                </div>
+            </div>
+
+            <!-- Producto 3 -->
+            <div class="product-card standard glass-card rounded-3xl p-6 flex flex-col justify-between hover:border-zinc-500 transition duration-300">
+                <div>
+                    <span class="bg-emerald-500/10 text-emerald-400 text-xs font-semibold px-3 py-1 rounded-full border border-emerald-500/20">Usado Premium</span>
+                    <img src="https://images.unsplash.com/photo-1510557880182-3d4d3cba35a5?q=80&w=600&auto=format&fit=crop" alt="iPhone 11" class="w-full h-56 object-contain my-6">
+                    <h3 class="text-xl font-bold text-white">iPhone 11</h3>
+                    <p class="text-sm text-zinc-400 mt-1">64 GB | Negro</p>
+                    <div class="flex items-center gap-2 mt-3 text-xs text-zinc-300">
+                        <i data-lucide="battery-charging" class="w-4 h-4 text-emerald-400"></i> Batería 88%
+                        <span class="text-zinc-600">•</span>
+                        <i data-lucide="check" class="w-4 h-4 text-emerald-400"></i> Impecable
+                    </div>
+                </div>
+                <div class="mt-6 pt-4 border-t border-zinc-800 flex justify-between items-center">
+                    <div>
+                        <span class="text-xs text-zinc-500 block">Consultar precio</span>
+                        <span class="text-xl font-extrabold text-white">USD $310</span>
+                    </div>
+                    <a href="https://wa.me/5491100000000?text=Hola!%20Me%20interesa%20el%20iPhone%2011%20de%2064GB" target="_blank" class="bg-zinc-800 hover:bg-white hover:text-black transition p-3 rounded-2xl">
+                        <i data-lucide="shopping-bag" class="w-5 h-5"></i>
+                    </a>
+                </div>
+            </div>
+
+            <!-- Producto 4: Accesorios -->
+            <div class="product-card accesorios glass-card rounded-3xl p-6 flex flex-col justify-between hover:border-zinc-500 transition duration-300">
+                <div>
+                    <span class="bg-purple-500/10 text-purple-400 text-xs font-semibold px-3 py-1 rounded-full border border-purple-500/20">Accesorio Original</span>
+                    <img src="https://images.unsplash.com/photo-1600294037681-c80b4cb5b434?q=80&w=600&auto=format&fit=crop" alt="AirPods Pro 2" class="w-full h-56 object-contain my-6">
+                    <h3 class="text-xl font-bold text-white">AirPods Pro (2da Gen)</h3>
+                    <p class="text-sm text-zinc-400 mt-1">Cancelación de ruido activa</p>
+                </div>
+                <div class="mt-6 pt-4 border-t border-zinc-800 flex justify-between items-center">
+                    <div>
+                        <span class="text-xs text-zinc-500 block">Consultar precio</span>
+                        <span class="text-xl font-extrabold text-white">USD $240</span>
+                    </div>
+                    <a href="https://wa.me/5491100000000?text=Hola!%20Me%20interesan%20los%20AirPods%20Pro" target="_blank" class="bg-zinc-800 hover:bg-white hover:text-black transition p-3 rounded-2xl">
+                        <i data-lucide="shopping-bag" class="w-5 h-5"></i>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Plan Canje -->
+    <section id="servicios" class="py-20 px-6 bg-zinc-950 border-t border-zinc-900">
+        <div class="max-w-5xl mx-auto glass-card rounded-3xl p-8 md:p-12 relative overflow-hidden">
+            <div class="grid grid-cols-1 md:grid-cols-2 gap-8 items-center">
+                <div>
+                    <span class="text-xs font-bold uppercase tracking-widest text-zinc-400">Renová tu equipo</span>
+                    <h2 class="text-3xl md:text-4xl font-extrabold text-white mt-2 mb-4">¿Tenés un iPhone usado? Tomamos tu equipo.</h2>
+                    <p class="text-zinc-400 text-sm md:text-base mb-6">
+                        Entregá tu iPhone actual como parte de pago. Cotización inmediata en el día sin trámites complicados.
+                    </p>
+                    <ul class="space-y-3 text-sm text-zinc-300 mb-8">
+                        <li class="flex items-center gap-2"><i data-lucide="check-circle" class="w-4 h-4 text-emerald-400"></i> Tasación transparente y justa</li>
+                        <li class="flex items-center gap-2"><i data-lucide="check-circle" class="w-4 h-4 text-emerald-400"></i> Transferencia de datos sin costo</li>
+                        <li class="flex items-center gap-2"><i data-lucide="check-circle" class="w-4 h-4 text-emerald-400"></i> Entrega el mismo día</li>
+                    </ul>
+                    <a href="https://wa.me/5491100000000?text=Hola!%20Quiero%20cotizar%20mi%20iPhone%20para%20Plan%20Canje" target="_blank" class="inline-flex items-center gap-2 bg-emerald-500 hover:bg-emerald-600 text-black font-bold px-6 py-3 rounded-full transition">
+                        Cotizar mi iPhone por WhatsApp <i data-lucide="arrow-right" class="w-4 h-4"></i>
+                    </a>
+                </div>
+                <div class="flex justify-center">
+                    <img src="https://images.unsplash.com/photo-1556656793-08538906a9f8?q=80&w=600&auto=format&fit=crop" alt="Plan Canje iPhone" class="rounded-2xl border border-zinc-800 opacity-80">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Banner Instagram Feed / Social Proof -->
+    <section class="py-20 px-6 max-w-7xl mx-auto text-center">
+        <h2 class="text-3xl font-bold text-white mb-2">Comunidad en Instagram</h2>
+        <p class="text-zinc-400 mb-8">Mirá las entregas diarias y recomendaciones en nuestro perfil <a href="https://www.instagram.com/iph__barracas/" target="_blank" class="text-pink-400 underline">@iph__barracas</a></p>
+        
+        <div class="grid grid-cols-2 md:grid-cols-4 gap-4">
+            <a href="https://www.instagram.com/iph__barracas/" target="_blank" class="block rounded-2xl overflow-hidden glass-card group relative">
+                <img src="https://images.unsplash.com/photo-1512499617640-c74ae3a79d37?q=80&w=400&auto=format&fit=crop" class="w-full h-48 object-cover group-hover:scale-105 transition duration-300">
+                <div class="absolute inset-0 bg-black/40 opacity-0 group-hover:opacity-100 transition flex items-center justify-center">
+                    <i data-lucide="instagram" class="w-8 h-8 text-white"></i>
+                </div>
+            </a>
+            <a href="https://www.instagram.com/iph__barracas/" target="_blank" class="block rounded-2xl overflow-hidden glass-card group relative">
+                <img src="https://images.unsplash.com/photo-1592750475338-74b7b21085ab?q=80&w=400&auto=format&fit=crop" class="w-full h-48 object-cover group-hover:scale-105 transition duration-300">
+                <div class="absolute inset-0 bg-black/40 opacity-0 group-hover:opacity-100 transition flex items-center justify-center">
+                    <i data-lucide="instagram" class="w-8 h-8 text-white"></i>
+                </div>
+            </a>
+            <a href="https://www.instagram.com/iph__barracas/" target="_blank" class="block rounded-2xl overflow-hidden glass-card group relative">
+                <img src="https://images.unsplash.com/photo-1530319067432-f2a729c03db5?q=80&w=400&auto=format&fit=crop" class="w-full h-48 object-cover group-hover:scale-105 transition duration-300">
+                <div class="absolute inset-0 bg-black/40 opacity-0 group-hover:opacity-100 transition flex items-center justify-center">
+                    <i data-lucide="instagram" class="w-8 h-8 text-white"></i>
+                </div>
+            </a>
+            <a href="https://www.instagram.com/iph__barracas/" target="_blank" class="block rounded-2xl overflow-hidden glass-card group relative">
+                <img src="https://images.unsplash.com/photo-1565849904461-04a58ad377e0?q=80&w=400&auto=format&fit=crop" class="w-full h-48 object-cover group-hover:scale-105 transition duration-300">
+                <div class="absolute inset-0 bg-black/40 opacity-0 group-hover:opacity-100 transition flex items-center justify-center">
+                    <i data-lucide="instagram" class="w-8 h-8 text-white"></i>
+                </div>
+            </a>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer id="contacto" class="border-t border-zinc-900 bg-black py-12 px-6">
+        <div class="max-w-7xl mx-auto flex flex-col md:flex-row justify-between items-center gap-6 text-center md:text-left">
+            <div>
+                <h3 class="text-lg font-bold text-white">iPhone Barracas</h3>
+                <p class="text-sm text-zinc-500 mt-1">Especialistas en Apple • Barracas, CABA</p>
+            </div>
+            <div class="flex space-x-6 text-zinc-400">
+                <a href="https://www.instagram.com/iph__barracas/" target="_blank" class="hover:text-white transition flex items-center gap-1">
+                    <i data-lucide="instagram" class="w-5 h-5"></i> @iph__barracas
+                </a>
+                <a href="https://wa.me/5491100000000" target="_blank" class="hover:text-white transition flex items-center gap-1">
+                    <i data-lucide="message-circle" class="w-5 h-5"></i> WhatsApp Directo
+                </a>
+            </div>
+            <div class="text-xs text-zinc-600">
+                &copy; 2026 iPhone Barracas. Todos los derechos reservados.
+            </div>
+        </div>
+    </footer>
+
+    <!-- Scripts de la página -->
+    <script>
+        // Inicializar iconos Lucide
+        lucide.createIcons();
+
+        // Lógica sencilla para filtrar productos
+        function filtrar(categoria) {
+            const productos = document.querySelectorAll('.product-card');
+            const botones = document.querySelectorAll('.filter-btn');
+
+            // Actualizar estilo de botones
+            botones.forEach(btn => {
+                btn.classList.remove('bg-white', 'text-black');
+                btn.classList.add('glass-card', 'text-zinc-300');
+            });
+            event.target.classList.remove('glass-card', 'text-zinc-300');
+            event.target.classList.add('bg-white', 'text-black');
+
+            // Filtrar cards
+            productos.forEach(card => {
+                if (categoria === 'todos' || card.classList.contains(categoria)) {
+                    card.style.display = 'flex';
+                } else {
+                    card.style.display = 'none';
+                }
+            });
+        }
+    </script>
+</body>
+</html>
